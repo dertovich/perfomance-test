@@ -1,4 +1,4 @@
-package org.example;
+package org.example.task2;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -7,7 +7,7 @@ import java.io.IOException;
 public class Task2 {
     public static void main(String[] args) {
         if (args.length != 2) {
-            System.out.println("Usage: java -jar task2.jar <circle_data_file> <points_data_file>");
+            System.out.println("Usage: java -jar task2.jar test1.txt test2.txt");
             return;
         }
 

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.task1;
 
 public class Task1 {
     public static int n;
@@ -7,7 +7,7 @@ public class Task1 {
 
     public static void main(String[] args) {
         if (args.length != 2) {
-            System.out.println("Usage: java -jar task1.jar <n> <m>");
+            System.out.println("Usage: java -jar task1.jar 5 4");
             return;
         }
 
